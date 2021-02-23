@@ -155,7 +155,7 @@
       />
     </inertial>
 
-    <collision name='collision'>
+    <collision name='camera_collision'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/> 
       <geometry>
         <box size="0.05 0.05 0.05"/>
@@ -192,7 +192,7 @@
       />
     </inertial>
 
-    <collision name='collision'>
+    <collision name='hokuyo_collision'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/> 
       <geometry>
         <box size="0.1 0.1 0.1"/>
